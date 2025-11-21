@@ -1,0 +1,501 @@
+@import "tailwindcss";
+@import "./color.css";
+
+*{
+  margin: 0;
+  padding: 6px;
+  
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.mainSection{
+  width: 100%;
+  height: 400vh;
+  background-color: var(--forgroundmain);
+
+}
+
+.resumeSection{
+  width: 15%;
+  height: 100vh;
+  background-color: var(--foreground);
+  float: left;
+  overflow: hidden;
+  color: black;
+  position: fixed;
+  
+}
+
+.resumeSection .profil{
+  width: 130px;
+  height: 130px;
+  background-color: var(--forgroundmain);
+  margin: 20px auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.resumeSection .profil .imgProfile{
+  width: 500px;
+  height: 200px;
+}
+
+.locationIc{
+  color: var(--primary);
+  background-color: var(--forgroundmain);
+}
+
+.navSection{
+  width: 5%;
+  height: 100vh;
+  background-color: var(--foreground);
+  
+  color:black;
+  position: fixed;
+  right: 24px;
+  top: 24px;
+}
+
+.navicon{
+  width: 33px;
+  height: 33px;
+  margin: 8px auto;
+  background-color: var(--forgroundmain);
+  color: var(--foreground);
+  border-radius: 50px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.themeIcoCtrl{
+  margin-bottom: 100px;
+}
+
+.navActiveIco{
+  background-color: var(--primary);
+  color: white;
+}
+
+.midSection{
+  width: 78.5%;
+  height: auto;
+  background-color: transparent;
+  margin:0 16%;
+  
+    
+}
+
+.descSection{
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(rgb(226, 226, 226), rgb(67, 92, 109));
+  color: black;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.descSection .leftSide{
+  width: 70%;
+  height: 100vh;
+  background-color: transparent;
+  float: left;
+}
+
+.descSection .leftSide .title{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(53, 53, 53);
+  margin-left: 10px;
+}
+
+.descSection .leftSide h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.descSection .leftSide p{
+  margin-left: 15px;
+
+}
+
+.descSection .leftSide Button{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.bgProfile{
+   position: absolute;
+   bottom: 0; /* Aligns the bottom of the image with the bottom of the parent div */
+   right: 0; 
+   width: 400px;
+  top: 10px;
+}
+
+
+
+.descSection .rightSide{
+  width: 30%;
+  height: 100vh;
+  background-color: transparent;
+  float: right;
+}
+
+.span{
+  color: var(--primary);
+  font-weight: lighter;
+}
+
+.fill{
+  background-color: var(--primary);
+  color: white;
+  width: 180px;
+  cursor: pointer;
+  margin-left: 10px;
+  display: flex;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.socialNetwork{
+   text-align: center;
+   background-color: transparent;
+   margin-bottom: 80px;
+   margin-top: -20px;
+}
+
+.socialNetIco{
+  color: var(--foreground);
+  display: inline-block;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: var(--forgroundmain);
+  border-radius: 50%;
+  
+}
+
+.infBlock{
+  width: 110%;
+  height: auto;
+  background-color: transparent;
+  margin-top: -50px;
+  color: rgb(51, 51, 51);
+  margin-left: -5px;
+}
+
+.infIco{
+ margin-left: -10px;
+ float: left;
+ color: var(--primary);
+}
+
+.infBlc{
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  margin-bottom: -15px;
+}
+
+.txtIc{
+  margin-top: -4px;
+}
+.LanguagesSec{
+  background-color: transparent;
+  
+}
+
+.LanguagesSec h1{
+  color: var(--primary);
+  font-weight: bold;
+  margin-top: 20px;
+  
+}
+
+.wrappeLnges{
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 5px;
+  height: 30px;
+  display: flex;
+
+  
+}
+
+
+.wrappeLnges .coverLevel{
+ background-color: var(--forgroundmain);
+ width: 100px;
+ height: 10px;
+ position: absolute;
+ right: 0;
+ margin-right: 5px;
+ margin-top: 12px;
+ border-radius: 20px;
+ padding: 0;
+ overflow: hidden;
+}
+
+.level{
+  height: 100%;
+  background-color: var(--primary);
+  float: left;
+  border-radius: 20px;
+}
+
+.kreyol{
+  width: 100%;
+}
+
+.french{
+  width: 80%;
+}
+
+.english{
+  width: 65%;
+}
+
+.skillsec h1{
+  color: var(--primary);
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.skillsec P{
+  font-size: 11PX;
+  margin-bottom: -10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.servicesSec{
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+ 
+}
+
+.servicesSec h1{
+ color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+}
+
+.servicesSec p{
+  text-align: center;
+  padding: 0 200px;
+  color: var(--foreground);
+}
+
+.serviceCover{
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.service{
+  width: 270px;
+  height: 200px;
+  background-color: var(--foreground);
+  margin-bottom: 20px;
+  color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icoService{
+  width: 80px;
+  height: 80px;
+  margin-top: 15px;
+}
+
+.service h1{
+  font-size: 15px;
+}
+
+.service p{
+  font-size: 12px;
+  display: inline;
+  width: 800px;
+  color: black;
+}
+
+.link{
+  margin: 0;
+  padding: 0;
+}
+
+.aboutSection{
+  width: 100%;
+  height: 600px;
+  background-color: transparent;
+  padding: 0;
+}
+
+.aboutSection h1{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+
+.aboutSection .imgAboutSec{
+  width: 50%;
+  height: 500px;
+  float: left;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.aboutSection .imgAboutSec .banner{
+  position: relative;
+  bottom: 300px;
+  left: 0;
+  z-index: 4;
+}
+
+.aboutSection .imgAboutSec .img{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.aboutSection .descAboutSec{
+  width: 50%;
+  height: auto;
+  float: right;
+  background-color: transparent;
+}
+
+.aboutSection .descAboutSec p{
+  text-align: center;
+  margin-top: 100px;
+  background-color: transparent;
+  font-weight: lighter;
+  font-size: 20px;
+  color: var(--foreground);
+}
+
+
+
+.contactSection{
+  width: 100%;
+  height: 600px;
+  background-color: transparent;
+  
+}
+
+.contactSection h1{
+  color: var(--foreground);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.contactSection .formCover{
+  width: 500px;
+  height: 300px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column; 
+  gap: 1rem;
+  margin: 0 auto; 
+
+}
+
+.contactSection .formCover>form>input,textarea{
+  margin-bottom: 20px;
+  width: 500px;
+  color: var(--foreground);
+  border: 1px solid var(--foreground);
+}
+
+
+.contactSection .formCover>form>button{
+  margin-top: 20px;
+  width: 500px;
+  background-color: var(--foreground);
+  color: var(--forgroundmain);
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+
+.footer{
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: -130px;
+  left: 0;
+  text-align: center;
+}
+
+
+
+/* **************************MOBILE******************************** */
+
+@media (max-width: 430px) {
+
+ 
+    *{
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+  }
+
+    .mainSection{
+      width: 100%;
+      height: 400vh;
+      background-color: var(--forgroundmain);
+
+    }
+    }
+
+
