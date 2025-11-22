@@ -6,6 +6,24 @@ export default function Page(){
             <Nav/>
            <aside className="asideLeft">
             <img src="/preview.jpg" alt="Stheeva" className="img"  width={90}/>
+
+            <div className="infi">
+                <h2 className="nameI">Stheeva</h2>
+                <p className="Ninf">New York</p>
+                <p className="Ninf">stheevalab@gmail.com</p>
+            </div> 
+            <div className="inf">
+                <h2>Languages</h2>
+                <p>Creole</p>
+                <p>French</p>
+                <p>English</p>
+            </div>
+            <div className="inf">
+                <h2>Skills</h2>
+                <p className="infs">HTML, CSS, JS, PHP</p>
+                <p className="infs">NEXT JS, JAVA, SQL, IT</p>
+                <p className="infs">PHOTOSHOP, DAVINCI RESOLVE, ILLUSTRATOR</p>
+            </div>
            </aside>
 
            <section className="aboutSection">
@@ -22,13 +40,7 @@ export default function Page(){
                                                 This platform is a reflection of everything I love—technology, design, creativity, and the desire to inspire.
                                                 Whether you’re here to collaborate, book a service, or simply explore my work, I’m grateful you stopped by. Let’s create something amazing together.</p>
                 
-                <section className="">
-                    
-                </section>
-                <h3>What I do ?</h3>
-                <div className="card">
-
-                </div>
+               
            </section>
 
         </>
