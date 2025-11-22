@@ -1,0 +1,32 @@
+@import "../../app/colors.css";
+.vertical-nav{
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    background-color: var(--primary);
+    width: 30px;
+    padding: 10px;
+    border-radius: 40px;
+    align-items: center;
+   
+}
+
+.vertical-nav .link{
+    color: black;
+}
+
+.vertical-nav p{
+    margin-bottom: 0px;
+}
+
+.active{
+    color: var(--primary);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    border-radius: 50px;
+}
